@@ -1,0 +1,375 @@
+body{
+    background-image: url(bg.png);
+    background-position: center;
+    
+    
+}
+
+h2{
+    color:cornflowerblue;
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color:cornsilk;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+div.Biodata{
+    margin: 30px auto;
+    width: 70%;
+    background-color:pink;
+    color:black ;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div.content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap : 60px;
+    
+}
+
+
+div.foto{
+    position:relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid red;
+
+}
+
+div.foto img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+div.foto img.top{
+    opacity: 1;
+    z-index: 2;
+}
+.foto:hover img.top{
+    opacity: 0;
+    transform: scale(1.1);
+}
+.foto img.bottom{
+    opacity: 0;
+    z-index: 1;
+    }
+.foto:hover img.bottom{
+    opacity: 1;
+    transform: scale(1.1);
+}
+div.makanan{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+img{
+    padding: 10px;
+}
+div.sushi{
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk; 
+    }
+div.sushi:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.pizza{
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    }
+div.pizza:hover{
+    overflow:hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.nasipadang{
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.nasipadang:hover{
+    overflow:hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.bakso{
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+}
+div.bakso:hover{
+    overflow:hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.minuman{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    }
+img{
+    padding: 10px;
+}
+h3{
+    color:cornflowerblue;
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:24px;
+}
+div.airminum{
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    text-align: center;
+        }
+div.airminum:hover{
+    overflow:hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+    }
+div.matcha{
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    text-align: center;
+}
+div.matcha:hover{
+   overflow:hidden;
+   transition: transform 0.3s ease;
+   transform: scale(1.1); 
+}
+div.ube{
+   width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    text-align: center; 
+}
+div.ube:hover{
+   overflow:hidden;
+   transition: transform 0.3s ease;
+   transform: scale(1.1); 
+}
+div.bobamilktea{
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    text-align: center; 
+}
+div.bobamilktea:hover{
+  overflow:hidden;
+   transition: transform 0.3s ease;
+   transform: scale(1.1);   
+}
+div.film{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    }
+img{
+    padding: 10px;
+}
+h4{
+    color:cornflowerblue;
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:24px;
+}
+div.Enolaholmes{
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    text-align: center; 
+}
+div.Enolaholmes:hover{
+   overflow:hidden;
+   transition: transform 0.3s ease;
+   transform: scale(1.1); 
+}
+div.Harrypotter{
+     width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    text-align: center; 
+}   
+div.Harrypotter:hover{
+   overflow:hidden;
+   transition: transform 0.3s ease;
+   transform: scale(1.1); 
+} 
+div.theparenttrap{
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    text-align: center; 
+}
+div.theparenttrap:hover{
+    overflow:hidden;
+   transition: transform 0.3s ease;
+   transform: scale(1.1); 
+}
+div.Haikyu{
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    text-align: center;
+}
+div.Haikyu:hover{
+  overflow:hidden;
+   transition: transform 0.3s ease;
+   transform: scale(1.1);   
+}
+div.Artis{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    }
+img{
+    padding: 10px;
+}
+h5{
+    color:cornflowerblue;
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:24px;
+}
+div.Enhypen{
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    text-align: center;
+}
+div.Enhypen:hover{
+   overflow:hidden;
+   transition: transform 0.3s ease;
+   transform: scale(1.1);   
+}
+div.Cortis{
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    text-align: center;
+}
+div.Cortis:hover{
+overflow:hidden;
+   transition: transform 0.3s ease;
+   transform: scale(1.1);   
+}
+div.Lesserafim{
+   width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    text-align: center; 
+}
+div.Lesserafim:hover{
+   overflow:hidden;
+   transition: transform 0.3s ease;
+   transform: scale(1.1);    
+}
+   
+
+div.Lagu{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+img{
+    padding: 10px;
+}
+h6{
+    color:cornflowerblue;
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:24px;
+}
+div.Oasis{
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    box-shadow: 0 4 px 8px 0 (96,56,56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    text-align: center; 
+    box-sizing: border-box;
+}
+audio {
+    width: 330px;
+    margin-top: 10px;
+}
